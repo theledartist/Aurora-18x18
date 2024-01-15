@@ -1,0 +1,58 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=Z:\akimitsu On My Mac\Dropbox\tech stuff\LED Artist\Aurora\-firmware\18x18 rev2d\aurora18x18-rev2d.o
+Folder=Intermediary
+DeviceName=PIC24FV16KA304
+LanguageToolSuiteID={F62E444C-B232-4066-9AB0-A6F4E5261396}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB ASM30 Suite\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|aurora18x18-rev2d.s||<obj>||<lib>||<lkr>|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV32KA304.gld|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV16KA304.gld||
+SuiteArgsString=
+ToolArgsString=-g -ahmls="$(BINDIR_)$(INFILEBASE).lst"
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=Z:\akimitsu On My Mac\Dropbox\tech stuff\LED Artist\Aurora\-firmware\18x18 rev2d\aurora18x18-rev2d.lst
+Folder=Output
+DeviceName=PIC24FV16KA304
+LanguageToolSuiteID={F62E444C-B232-4066-9AB0-A6F4E5261396}
+LanguageToolID={DE18EB1A-B46B-486B-B96F-A811A635DFAC}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB ASM30 Suite\bin\pic30-as.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|aurora18x18-rev2d.s||<obj>||<lib>||<lkr>|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV32KA304.gld|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV16KA304.gld||
+SuiteArgsString=
+ToolArgsString=-g -ahmls="$(BINDIR_)$(INFILEBASE).lst"
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=Z:\akimitsu On My Mac\Dropbox\tech stuff\LED Artist\Aurora\-firmware\18x18 rev2d\aurora18x18-rev2d.cof
+Folder=Output
+DeviceName=PIC24FV16KA304
+LanguageToolSuiteID={F62E444C-B232-4066-9AB0-A6F4E5261396}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB ASM30 Suite\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|aurora18x18-rev2d.s||<obj>||<lib>||<lkr>|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV32KA304.gld|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV16KA304.gld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=Z:\akimitsu On My Mac\Dropbox\tech stuff\LED Artist\Aurora\-firmware\18x18 rev2d\aurora18x18-rev2d.hex
+Folder=Output
+DeviceName=PIC24FV16KA304
+LanguageToolSuiteID={F62E444C-B232-4066-9AB0-A6F4E5261396}
+LanguageToolID={433C3D55-811D-409D-A6BF-159CF9355B42}
+LanguageToolLocation=C:\Program Files\Microchip\MPLAB ASM30 Suite\bin\pic30-ld.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)||$(LIBDIR)||$(LKRDIR)||
+SOLK=<src>|aurora18x18-rev2d.s||<obj>||<lib>||<lkr>|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV32KA304.gld|C:\Program Files\Microchip\mplabc30\v3.25\support\PIC24F\gld\p24FV16KA304.gld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map" --report-mem
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{DE18EB1A-B46B-486B-B96F-A811A635DFAC}=C:\Program Files\Microchip\MPLAB ASM30 Suite\bin\pic30-as.exe
+tool_loc{433C3D55-811D-409D-A6BF-159CF9355B42}=C:\Program Files\Microchip\MPLAB ASM30 Suite\bin\pic30-ld.exe
